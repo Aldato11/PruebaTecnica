@@ -15,7 +15,7 @@ const Header = ({setLocation, handleClick, location}) => {
     };
     
     return (
-        // Se pide la peticion al usuario
+        // Se le pide el id de localizacion al usuario
         <div className='bg-gray-800'>
             <div className='flex justify-between  items-center container '>
                 <h1 className='text-white text-2xl'>Rick And Morty</h1>
