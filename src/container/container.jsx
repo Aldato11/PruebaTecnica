@@ -1,9 +1,9 @@
 import React, { useMemo, useState } from 'react'
 import axios from 'axios'
 import Swal from 'sweetalert2'
-import Spinner from '../components/Spinner'
-import Header from '../components/Header'
-import Cards from '../components/Cards'
+import Spinner from '../Components/Spinner'
+import Header from '../Components/Header'
+import Cards from '../Components/Cards'
 
 const Container = () => {
 

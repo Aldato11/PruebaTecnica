@@ -15,7 +15,7 @@ const Header = ({setLocation, handleClick, location}) => {
     };
     
     return (
-        // Formulario para pedir la peticion al usuario
+        // Se pide la peticion al usuario
         <div className='bg-gray-800'>
             <div className='flex justify-between  items-center container '>
                 <h1 className='text-white text-2xl'>Rick And Morty</h1>
