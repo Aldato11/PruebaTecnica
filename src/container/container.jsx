@@ -1,9 +1,9 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useMemo, useState } from 'react'
 import axios from 'axios'
 import Swal from 'sweetalert2'
 import Spinner from '../components/Spinner'
 import Header from '../components/Header'
-import Cards from '../Components/Cards'
+import Cards from '../components/Cards'
 
 const Container = () => {
 
