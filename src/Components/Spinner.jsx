@@ -3,6 +3,7 @@ import React from 'react'
 const Spinner = ({ spinner }) => {
     return (
         <>
+        {/* HTML para generar un Spinner */}
             {spinner && (
                 <div class="sk-circle">
                     <div class="sk-circle1 sk-child"></div>

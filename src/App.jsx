@@ -1,9 +1,8 @@
-import Content from "./Components/Content"
+import Container from "./container/container"
+
 function App({}) {
   return (
-    <>
-        <Content/>
-    </>
+    <Container/>
   )
 }
 
