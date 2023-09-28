@@ -16,7 +16,7 @@ const Header = ({setLocation, handleClick, location}) => {
     
     return (
         // Se le pide el id de localizacion al usuario
-        <div className='bg-gray-800'>
+        <header className='bg-gray-800'>
             <div className='flex justify-between  items-center container '>
                 <h1 className='text-white text-2xl'>Rick And Morty</h1>
                 <div className='flex justify-end m-5 gap-1 rounded-md overflow-hidden ring-indigo-500/50 ring-offset-[3px] focus-within:ring-2
@@ -44,7 +44,7 @@ const Header = ({setLocation, handleClick, location}) => {
 
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 

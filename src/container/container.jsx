@@ -90,23 +90,23 @@ const Container = () => {
 
     return (
         // Se cargan los diferentes componentes
-        <div className={color}>
+        <main className={color}>
             <Header setLocation={setLocation} handleClick={handleClick} location={location}/>
             {!error && (
                 <>
                     <Spinner spinner={loading} />
                     {!loading &&
-                    <div className=' grid grid-cols-2 md:grid-cols-3 gap-5 container py-10  w-80 md:w-auto'>
+                    <section className=' grid grid-cols-2 md:grid-cols-3 gap-5 container py-10  w-80 md:w-auto'>
                         {dataOrder.map(resident => (
                             <div className='border-2 border-gray-200 bg-gray-600 text-gray-300 max-w-xl rounded-2xl overflow-hidden'>
                                 <Cards resident={resident} />
                             </div>
                         ))}
-                    </div>
+                    </section>
                     }
                 </>
             )}
-        </div>
+        </main>
     )
 }
 
